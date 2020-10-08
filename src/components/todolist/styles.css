@@ -26,9 +26,12 @@
 .todo {
     width: 8rem;
     height: 3rem;
+}
+
+.todo-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-}
 
+}

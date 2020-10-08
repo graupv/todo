@@ -57,6 +57,13 @@ const TodoList = () => {
             }
         ))
     }
+
+    const confirmDelete = (i) => {
+        // let res = ;
+        if (window.confirm("Delete ?")) {
+            deleteTodo(i)
+        } 
+    }
     
         return (
             <div className="container">
@@ -83,9 +90,9 @@ const TodoList = () => {
                                             <div className="text">
                                                 {text}
                                             </div>
-                                            <button onClick={() => deleteTodo(index)}>X</button>
                                             
                                         </div>
+                                            <button onClick={() => confirmDelete(index)}>X</button>
                                     </div>
                             )}
                             )
@@ -104,8 +111,8 @@ const TodoList = () => {
                                             <div className="text">
                                                     {text}
                                             </div>
-                                            <button onClick={() => deleteTodo(index)}>X</button>
                                         </div>
+                                            <button onClick={() => confirmDelete(index)}>X</button>
                                     </div>
                             )}
                             )
