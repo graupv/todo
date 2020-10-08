@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './styles.css'
 
 import pullAt from 'lodash/pullAt'
 
-import Todo from '../todo'
+// import Todo from '../todo'
 import AddTodo from '../addtodo';
 
 
@@ -59,9 +59,10 @@ const TodoList = () => {
     }
 
     const confirmDelete = (i) => {
-        // let res = ;
+
         if (window.confirm("Delete ?")) {
             deleteTodo(i)
+            
         } 
     }
     
