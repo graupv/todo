@@ -1,0 +1,13 @@
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    width: 8rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.desc {
+    height: 2rem;
+    width: auto;
+}

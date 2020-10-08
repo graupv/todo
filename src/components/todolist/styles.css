@@ -1,0 +1,34 @@
+.titulo {
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.listcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col {
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    /* flex-grow: 1; */
+    flex-direction: column;
+}
+
+.todo {
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
