@@ -13,4 +13,4 @@ const App = () => {
     // my comment
 )}
 
-export default App;g
+export default App;
